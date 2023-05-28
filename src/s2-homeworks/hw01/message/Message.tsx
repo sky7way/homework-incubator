@@ -6,6 +6,7 @@ export type MessagePropsType = any
 
 // нужно отобразить приходящие данные
 const Message = (props: MessagePropsType) => {
+    debugger
     return (
         <div id={'hw1-message-' + props.message.id} className={s.message}>
             <div className={s.imageAndText}>
